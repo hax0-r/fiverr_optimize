@@ -4017,23 +4017,5 @@
         });
       });
     </script>
-     <script>
-      function handleImageLoading() {
-        const images = document.querySelectorAll('img[loading="lazy"], img[fetchpriority="low"]');
-  
-        if (window.innerWidth < 600) {
-          images.forEach(img => {
-            img.removeAttribute('loading');
-            img.removeAttribute('fetchpriority');
-          });
-        } else {
-          images.forEach(img => {
-            img.setAttribute('loading', 'lazy');
-            img.setAttribute('fetchpriority', 'low');
-          });
-        }
-      }
-  
-    </script>
   </body>
 </html>

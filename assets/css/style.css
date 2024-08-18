@@ -1850,13 +1850,14 @@ ul._tour_days {
 .other_duration_check_button {
   position: relative;
   padding: 10px 10px;
-  border: 2px solid #000
+  border: 2px solid #000;
   background-color: white;
   color: #333;
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
-  transition: border 0.3s, box-shadow 0.3s;
+  transition: border 0.3s,
+   box-shadow 0.3s;
   display: flex;
   justify-content: space-between;
   gap: 5px;
